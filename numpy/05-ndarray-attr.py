@@ -3,7 +3,7 @@ import numpy as np
 # 数组的核心属性：shape, dtype, ndim, size
 # 这些属性是 `ndarray` 对象自带的元数据, 无需计算即可快速访问, 帮助我们理解数组的“骨架”.
 
-# `ndarray.ndim`: 数组的维度数量（轴的个数）.
+# `ndarray.ndim`: 数组的维度数量(轴的个数).
 # `ndarray.shape`: 一个元组, 表示数组在每个维度上的大小.
 # `ndarray.size`: 数组中元素的总数量, 等于 shape 中各元素之积.
 # `ndarray.dtype`: 描述数组中元素类型的对象.

@@ -5,7 +5,7 @@ import numpy as np
 # `np.zeros(shape, dtype=float)`: 创建一个指定形状 shape 且所有元素都为 0 的数组.
 # `np.ones(shape, dtype=float)`: 创建一个指定形状 shape 且所有元素都为 1 的数组.
 # `np.full(shape, fill_value, dtype=None)`: 创建一个指定形状 shape 且所有元素都为 fill_value 的数组.
-# `np.eye(N, M=None)`: 创建一个 N×M 的单位矩阵（主对角线为 1, 其余为 0）.如果 M 为 None, 则默认为 N×N.
+# `np.eye(N, M=None)`: 创建一个 N×M 的单位矩阵(主对角线为 1, 其余为 0).如果 M 为 None, 则默认为 N×N.
 
 
 # 1. 创建一个 2 行 3 列的全零矩阵

@@ -3,7 +3,7 @@ import numpy as np
 # 创建随机数据：np.random 模块
 
 # `np.random.rand(d0, d1, ...)`: 创建一个或多个维度的数组, 其元素是在 [0, 1) 区间内均匀分布的随机数.
-# `np.random.randn(d0, d1, ...)`: 创建一个或多个维度的数组, 其元素是符合标准正态分布（均值为0, 方差为1）的随机数.
+# `np.random.randn(d0, d1, ...)`: 创建一个或多个维度的数组, 其元素是符合标准正态分布(均值为0, 方差为1)的随机数.
 # `np.random.randint(low, high=None, size=None)`: 创建一个指定大小 size 的数组, 其元素是在 [low, high) 区间内的随机整数.
 
 # 为了让随机结果可复现, 通常会设置一个随机种子
