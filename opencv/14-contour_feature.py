@@ -12,7 +12,7 @@ contours, hierarchy = cv2.findContours(
 )
 print(len(contours))
 
-cnt = contours[0]
+cnt = contours[1]
 
 # 轮廓面积
 area = cv2.contourArea(cnt)
